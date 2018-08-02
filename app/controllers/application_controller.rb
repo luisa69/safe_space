@@ -33,5 +33,44 @@ class ApplicationController < Sinatra::Base
     erb :food
   end
   
+  post "/fitness"
+    erb :fitness
+  end
+
+  post "/health_2"
+    erb :health_2
+  end
+
+  post "/cooking"
+    erb :cooking
+  end
+
+  post "/reviews"
+    erb :reviews
+  end
+
+  post "/bullying"
+    erb :bullying
+  end
+
+  post "/misunderstood"
+    erb :misunderstood
+  end
+
+  post "/fashion"
+    erb :fashion
+  end
+
+  post "/sports"
+    erb :sports
+  end
+
+  post "/other"
+    erb :other
+  end
+
+  post "/help"
+    erb :help
+  end
   
 end
