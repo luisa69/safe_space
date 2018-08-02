@@ -14,6 +14,7 @@ class ApplicationController < Sinatra::Base
   end
   
   post '/' do
+    @name=params[:email]
     erb :home
   end
   
