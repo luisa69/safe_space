@@ -1,3 +1,11 @@
+p {
+  font-size: 30px;
+}
+
+body {
+  font-variant: small-caps	
+}
+
 .button {
   display: inline-block;
   border-radius: 4px;
