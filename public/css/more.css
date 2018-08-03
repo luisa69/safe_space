@@ -1,14 +1,4 @@
-body {
-  font-variant: small-caps	
-  /*background-image: url("https://media.giphy.com/media/Wy1GJe8J11WvK/giphy.gif);*/
-}
-
-#header_color {
-  background-color: #FFC0CB;
-}
-
-
-.btn1 {
+.btn_more_back {
   background-color: #f4511e;
   border: none;
   color: white;
@@ -20,9 +10,9 @@ body {
   transition: 0.3s;
 }
 
-.btn1:hover {opacity: 1}
+.btn_more_back:hover {opacity: 1}
 
-.btn2 {
+.btn_more1 {
   background-color: #f4511e;
   border: none;
   color: white;
@@ -34,9 +24,9 @@ body {
   transition: 0.3s;
 }
 
-.btn2:hover {opacity: 1}
+.btn_more1:hover {opacity: 1}
 
-.btn3 {
+.btn_more2 {
   background-color: #f4511e;
   border: none;
   color: white;
@@ -48,9 +38,9 @@ body {
   transition: 0.3s;
 }
 
-.btn3:hover {opacity: 1}
+.btn_more2:hover {opacity: 1}
 
-.btn4 {
+.btn_more3 {
   background-color: #f4511e;
   border: none;
   color: white;
@@ -62,4 +52,18 @@ body {
   transition: 0.3s;
 }
 
-.btn4:hover {opacity: 1}
+.btn_more3:hover {opacity: 1}
+
+.btn_more4 {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.btn_more4:hover {opacity: 1}

@@ -2,22 +2,32 @@
 <html lang="en">
   <head>
     <title>HOME</title>
-    <link rel="stylesheet" href="css/style.css"
+    <link rel="stylesheet" href="css/style.css">
   </head>
+  
   <body>
-    <h1><img src= "https://lh3.googleusercontent.com/B93NnV3aHqcdh4ahrQeL4mZBoUWqMmcKAdL0kOcqJVwwuhI4LH8WDyXwxCavdUkP78MiFhvvhs-Py-YwYHREQw2A-hnfWEtwJEgiAEWqt2Zkxe0b2zTjPdYwMaj4BNVUJaUNeohC9AnBbpGpoCra0KQ2wTsd36L780LEXewNI4b0cG5F6nXTWlrsSOwdT7lD-aSqmQnMIOzjch_gESC0qu15YAefmDfImr22dO2cdvHA3LFEKHuK2kF882Kfg3VEIsr9ockoJTZOGDW_8jSFbFzEGgAE1NJEhWB1OxvxbyS36Az9Yji0xzSGxdNZfWxRFV6rIL6wlBlhJ0unlGZ7ljq5UpL8HLPJ31kqr9wVP6reClTRnXfeajGkoPuOpTrl1YDsuR6_W5mzpn-qfS87AskGLw_usnls96hr4aLiRZqZNjkYvRkYqyW5gcetlgbcVrJ2aebYH7g0Osd3pKijdZOnEYEKRZSgcGrds_5JP5hvjCnFgW3OyujlXIQtzhlrEuQlGrxI4jY3ilma25ZyFVHbUetq6QCx52tfsEy2h-0jBEZM9TTwb7PzWjJUGWbqB5C8S81sMndQtZpbuu_EsEo6kMNLCpJ0S-LVNG8=s1000-no" width="100" height="100"> <%="Welcome to Safe Space #{@name}!"%></h1>
+    <div id = "header_color">
+    <h1><img src= "https://lh3.googleusercontent.com/QP_0vOY2kvqO3xhJNFXJwwO17OQOZNdiho81Edw0lw4HD9ZuZg5EW2qr0Tq48KUn4vXZ7DxmnDxdifidP2sqt-JGNt7gLM-uddtsnTbTA5NC73KuvyJ4zrPPyx0d56ucP4YhUt1r-5Pzz5o_uHe-4sIWEb6KRhpF_drAcsMKOfPXTeUzsVCqsbBf_ZgjIP40bIHm-VovKfp77hLGmw-PGwX5asFqyGy-EOXrGK63o0gW8QZSAqHu4L3oD-qIPGqx6hNs63mUpnf_vu_HA8mcOdX0L-WzfDhx_HtuwyJVnqlhGrYPGSivVzRljnoxnNOXloemzYvOrwC_8ZXp8Ah5iMKBCit4gUYe8Fwi18trSee95Kyo0kIhT_lznUhurs7Al2SWaZiaBPRwe9czW-PfYARnqb29wDrBfIdNsAx7Wmg04ffDGJyw7CeTN1LLZdLKdXi1haABmBDH1FRccW33gR-LiXsa0-yqrWFcOWMoPSsvr1-NAgseQq2O0SiOJCjpQ4Nw7tLZ0CEGMz7NC3yB7whsz250Af1YVeImYX1mitmiCwCdka_65ljaL65FLo6hIaBeLgJ5WllOqsYhSjP9K724aqUv_pFEtNi46mM=s1000-no" width="100" height="100"> <%="Welcome to Safe Space #{@name}!"%></h1>
+    </div>
     
+    <center>
+    
+    <div id = "body_image">
     <form method= "POST" action = "/health">
-    <input type= "submit" value="Health"></form>
+    <input class="btn1" type= "submit" value="Health"></form>
        
     <form method= "POST" action = "/food">
-    <input type= "submit" value="Food"></form>
+    <input class="btn2" type= "submit" value="Food"></form>
         
     <form method= "POST" action = "/mental_health">
-    <input type= "submit" value="Mental Health"></form>
+    <input class="btn3" type= "submit" value="Mental Health"></form>
         
     <form method= "POST" action = "/more">
-    <input type= "submit" value="More"></form>
+    <input class= "btn4" type= "submit" value="More"></form>
+    
+    </div>
+    
+    </center>
   </body>
 </html>
 
